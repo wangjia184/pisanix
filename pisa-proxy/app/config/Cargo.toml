@@ -6,20 +6,20 @@ build = "build.rs"
 
 
 [build-dependencies]
-vergen = { version = "8.0.0-beta.3", features =  ["build", "git", "gitcl", "rustc"] }
+vergen = { version = "8.2.4", features =  ["build", "git", "gitcl", "rustc"] }
 
 
 [dependencies]
 api = { path = "../api" }
-clap = { version = "3.2.12", features = ["env"] }
+clap = { version = "3.2.25", features = ["env"] }
 plugin = { path = "../../plugin" }
 proxy = { path = "../../proxy" }
 strategy = { path = "../../proxy/strategy" }
-reqwest = { version = "0.11.10", features = ["blocking", "json"] }
+reqwest = { version = "0.11.18", features = ["blocking", "json"] }
 runtime_mysql = { path = "../../runtime/mysql" }
-serde = { version = "1.0.133", default-features = false, features = ["derive"] }
+serde = { version = "1.0.175", default-features = false, features = ["derive"] }
 serde_derive = "1.0"
 serde_json = "1.0"
 toml = "0.5"
-tracing = "0.1.13"
-tracing-subscriber = "0.3.9"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"

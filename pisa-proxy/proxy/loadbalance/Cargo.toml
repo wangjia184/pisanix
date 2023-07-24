@@ -7,7 +7,7 @@ edition = "2021"
 chrono = "0.4"
 endpoint = { path = "../endpoint" }
 rand = "0.8"
-rand_core = "0.6.0"
+rand_core = "0.6.4"
 rand_distr = "0.4.3"
-serde = { version = "1.0.133", features = ["derive"] }
+serde = { version = "1.0.175", features = ["derive"] }
 serde_derive = "1.0"

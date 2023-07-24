@@ -5,16 +5,16 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-trait = "0.1.56"
+async-trait = "0.1.72"
 endpoint = { path = "./endpoint" }
 loadbalance = { path = "./loadbalance" }
 pisa_error = { path = "../error", package = "error" }
 plugin = { path = "../plugin" }
-serde = { version = "1.0.133", default-features = false, features = ["derive"] }
+serde = { version = "1.0.175", default-features = false, features = ["derive"] }
 serde_derive = "1.0"
 strategy = { path = "./strategy" }
-tokio = { version = "1.0.0", features = ["full", "tracing"] }
-tokio-util = { version = "0.7.0", features = ["full"] }
-tracing = "0.1.13"
-tracing-futures = { version = "0.2.3" }
-tracing-subscriber = "0.3.9"
+tokio = { version = "1.29.1", features = ["full", "tracing"] }
+tokio-util = { version = "0.7.8", features = ["full"] }
+tracing = "0.1.37"
+tracing-futures = { version = "0.2.5" }
+tracing-subscriber = "0.3.17"

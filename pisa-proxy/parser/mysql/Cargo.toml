@@ -12,7 +12,7 @@ name = "mysql_parser"
 cfgrammar = "0.12.0"
 lrlex = "0.12.0"
 lrpar = "0.12.0"
-syn = { version = "1.0.88", features = ["full", "extra-traits"] }
+syn = { version = "1.0.109", features = ["full", "extra-traits"] }
 
 [dependencies]
 cfgrammar = "0.12.0"
